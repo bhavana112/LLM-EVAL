@@ -32,13 +32,13 @@ st.markdown("""
 from dashboard.components.sidebar import render_sidebar
 from dashboard.utils import fetch_experiments
 
-# Import pages
-from dashboard.pages.home import show_home_page
-from dashboard.pages.experiments import show_experiments_page
-from dashboard.pages.reports import show_reports_page
-from dashboard.pages.comparisons import show_comparisons_page
-from dashboard.pages.regression import show_regression_page
-from dashboard.pages.failure_analysis import show_failure_analysis_page
+# Import views
+from dashboard.views.home import show_home_page
+from dashboard.views.experiments import show_experiments_page
+from dashboard.views.reports import show_reports_page
+from dashboard.views.comparisons import show_comparisons_page
+from dashboard.views.regression import show_regression_page
+from dashboard.views.failure_analysis import show_failure_analysis_page
 
 def main():
     # Fetch all experiments (handles online REST API or fallback data automatically)
