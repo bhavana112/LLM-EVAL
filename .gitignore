@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+ENV/
+env/
+.env
+
+# Pytest & python cache
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local experiment runs & database caches
+experiments/
+datasets/
+.deepeval/
+
+# System / IDE files
+.DS_Store
+.vscode/
+.idea/
