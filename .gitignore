@@ -12,8 +12,8 @@ __pycache__/
 *.pyd
 
 # Local experiment runs & database caches
-experiments/
-datasets/
+/experiments/
+/datasets/
 .deepeval/
 
 # System / IDE files
